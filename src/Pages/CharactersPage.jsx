@@ -60,29 +60,18 @@ function CharactersPage() {
 
   return (
     <div className="characters-page">
-      <aside className="sidebar">
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/characters">Characters</Link></li>
-            <li><Link to="/videos">Videos</Link></li>
-            <li><Link to="/wiki-info">Wiki Info</Link></li>
-          </ul>
-        </nav>
-      </aside>
+      
       <main className="main-content">
         <h1 className="page-title">All Characters</h1>
-        <div className="character-grid">
+        <div className="character-list">
           {charactersData.map((character, index) => (
             <div key={index} className="character-item">
               <img
                 src={character.image}
                 alt={character.name}
-                className="character-image"
+                className="character-img"
               />
-              <Link to={`/characters/${character.name.toLowerCase().replace(/\s+/g, "-")}`} className="character-link">
-                {character.name}
-              </Link>
+              <p className="character-name">{character.name}</p>
             </div>
           ))}
         </div>

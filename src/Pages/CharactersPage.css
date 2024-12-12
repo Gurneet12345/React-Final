@@ -1,108 +1,79 @@
-/* Main page layout */
-.characters-page {
-  display: flex; /* Use flexbox for layout */
-  min-height: 100vh; /* Ensure full height of the viewport */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   background-color: #121212;
-  color: #fff;
-  overflow: hidden;
-  /* Prevent horizontal scrolling */
 }
 
-/* Sidebar styling */
+.characters-page {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #121212; /* Remove the default margin */
+    margin-left: 250px;
+  
+}
+
 .sidebar {
-  width: 250px; /* Fixed width for the sidebar */
-  background-color: #1e1e1e;
+  width: 15%;
+  background-color: #090909;
+  height: 100vh;
   padding: 20px;
+  color:#121212 ;
   box-sizing: border-box;
 }
 
-.sidebar nav ul {
+.sidebar ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.sidebar nav ul li {
-  margin-bottom: 15px;
+.sidebar ul li {
+  margin: 10px 0;
 }
 
-.sidebar nav ul li a {
-  color: #fff;
+.sidebar ul li a {
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1rem;
+  color: rgb(3, 3, 3);
 }
 
-.sidebar nav ul li a:hover {
-  text-decoration: underline;
-  color: #ffc107;
-}
-
-/* Main content styling */
 .main-content {
-  flex: 1; /* Take up remaining space */
+  width: 85%;
   padding: 20px;
-  box-sizing: border-box;
-  overflow-y: auto; /* Allow vertical scrolling for content */
+  background-color: #121212;
+  color: white;
 }
 
 .page-title {
-  font-size: 2rem;
   color: #ffc107;
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* Character grid styling */
-.character-grid {
+.character-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamic grid for responsiveness */
-  gap: 20px; /* Space between cards */
-  justify-items: center; /* Center align cards */
-  margin: 0 auto; /* Center the grid */
-  max-width: 1200px; /* Optional: Restrict maximum grid width */
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 0;
 }
-
 
 .character-item {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between the image and the name */
+  gap: 15px;
   padding: 10px;
-  background-color: #222;
+  background-color: #333;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.character-item:hover {
-  transform: translateY(-5px); /* Lift effect */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Character image styling */
-.character-image {
-  width: 50px; /* Set the size of the character image */
+.character-img {
+  width: 50px;
   height: 50px;
-  border-radius: 5px; /* Rounded corners */
-  object-fit: cover; /* Ensure the image fits properly */
+  border-radius: 50%;
 }
 
-/* Character link styling */
-.character-link {
-  color: #ffc107;
-  text-decoration: none;
-  font-weight: bold;
+.character-name {
   font-size: 1rem;
-}
-
-.character-link:hover {
-  text-decoration: underline;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .character-grid {
-    grid-template-columns: 1fr; /* Single column for smaller screens */
-  }
+  font-weight: bold;
+  color: #ffc107;
 }
