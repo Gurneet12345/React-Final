@@ -22,12 +22,12 @@ function HomePage() {
     {
       title: "Character 4",
       description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      image: "https://e7.pngegg.com/pngimages/418/95/png-clipart-mario-kart-7-bowser-kamek-mario-bros-mario-kart-heroes-nintendo.png",
     },
     {
       title: "Character 5",
       description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      image: "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png",
     },
     {
       title: "Character 6",
