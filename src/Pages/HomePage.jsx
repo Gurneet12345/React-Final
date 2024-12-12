@@ -30,9 +30,9 @@ function HomePage() {
       image: "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png",
     },
     {
-      title: "Character 6",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      title: "Baby Rosalina",
+      description: "Detective",
+      image: "https://static.wikia.nocookie.net/mk-tour/images/3/33/MKT_Artwork_BabyRosalina.png",
     },
 
     {
