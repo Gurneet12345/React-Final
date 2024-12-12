@@ -1,0 +1,27 @@
+.navbar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 20px 0;
+  }
+  
+  .navbar a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+  }
+  

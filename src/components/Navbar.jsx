@@ -1,27 +1,26 @@
-import { AppBar, Box, Button, Toolbar } from '@mui/material';
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
-const Navbar = () =>
-{
-    
-    const navigate = useNavigate();
-    
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
-    // TODO : handle after confirming database
-    const handleSignout = async () => 
-    {
-
-    }
-
-    return (
-        <AppBar position='static' enableColorOnDark style={{display:'flex', alignItems: 'flex-end', color: 'red'}}>
-            <Toolbar>
-                <Box display="flex" alignItems="flex-end">
-                    <Button onClick={handleSignout} variant="outlined" style={{ color: 'white', border: '1px solid white' }}>Signout</Button>
-                </Box>
-            </Toolbar>
-        </AppBar>
-    )
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/characters">Characters</Link>
+        </li>
+        <li>
+          <Link to="/videos">Videos</Link>
+        </li>
+        <li>
+          <Link to="/wiki-info">Wiki Info</Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -1,0 +1,31 @@
+.characters-page {
+    margin: 0; /* Remove the default margin */
+    margin-left: 150px;
+    
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    box-sizing: border-box; /* Include padding in width/height calculations */
+    display: flex; /* Flex layout for proper alignment */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center sections horizontally */
+    min-height: 100vh;
+    justify-content: flex-start; 
+  }
+  
+  .characters-page h1 {
+    color: #ffc107; /* Bright yellow for title */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .characters-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center align the grid */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    width: 100%;
+  }
+  

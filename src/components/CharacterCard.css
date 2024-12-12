@@ -1,0 +1,36 @@
+.character-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    flex: 1; /* Allow cards to stretch equally */
+    min-width: 150px; /* Ensure cards have a minimum width */
+    max-width: 300px; /* Restrict the maximum width */
+  }
+  
+  .character-card h3 {
+    margin: 0;
+    color: #ffcc00;
+  }
+  
+  .character-card p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .character-row,
+  .character-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly; /* Ensures even spacing between cards */
+    flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
+    width: 100%; /* Takes full width of the container */
+  }
+  
+  .featured-characters,
+.all-characters {
+  margin: 40px auto;
+  width: 100%; /* Stretch sections across the full container width */
+  max-width: 1200px; /* Optional: Limit maximum width for better alignment */
+}
