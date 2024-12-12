@@ -26,9 +26,9 @@
 }
 
 .character-card img {
-  width: 100%; /* Make the image responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Match card corners */
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
   margin-bottom: 15px;
 }
 
@@ -36,14 +36,14 @@
 .character-grid {
   display: flex;
   gap: 20px;
-  justify-content: space-evenly; /* Ensures even spacing between cards */
-  flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
-  width: 100%; /* Takes full width of the container */
+  justify-content: space-evenly; 
+  flex-wrap: wrap; 
+  width: 100%; 
 }
 
 .featured-characters,
 .all-characters {
   margin: 40px auto;
-  width: 100%; /* Stretch sections across the full container width */
-  max-width: 1200px; /* Optional: Limit maximum width for better alignment */
+  width: 100%; 
+  max-width: 1200px;
 }
