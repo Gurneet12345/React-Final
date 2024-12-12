@@ -15,8 +15,8 @@ function HomePage() {
       image: "https://upload.wikimedia.org/wikipedia/en/b/be/Luigi_by_Shigehisa_Nakaue.png",
     },
     {
-      title: "Character 3",
-      description: "Character Name 3",
+      title: "Princess Peach",
+      description: "Head of State",
       image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Princess_Peach_Stock_Art.png/170px-Princess_Peach_Stock_Art.png",
     },
     {
@@ -36,33 +36,29 @@ function HomePage() {
     },
 
     {
-      title: "Character 7",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      title: "Birdo",
+      description: "Boss character",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwbQD8RBKOA_-OiGZ85nXmci2tKEHYXZ5V9qjmcKs6DoLZh1HhM74ap5iwUS0bluYzeRc&usqp=CAU",
     },
 
     {
-      title: "Character 8",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      title: "Wario",
+      description: "boss character",
+      image: "https://upload.wikimedia.org/wikipedia/en/8/81/Wario.png",
     },
     {
-      title: "Character 9",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      title: "Browser",
+      description: "fictional character",
+      image: "https://upload.wikimedia.org/wikipedia/en/d/d1/Bowser_by_Shigehisa_Nakaue.png",
     },
 
     {
-      title: "Character 10",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
+      title: "Toad",
+      description: "Princess Peach's Handler ",
+      image: "https://upload.wikimedia.org/wikipedia/en/b/b9/Toad_by_Shigehisa_Nakaue.png",
     },
 
-    {
-      title: "Character 11",
-      description: "Character Name 3",
-      image: "https://source.unsplash.com/random/300x300?character3",
-    },
+   
   ];
 
   return (
@@ -86,7 +82,7 @@ function HomePage() {
           <CharacterCard
             title="Featured Character"
             description="Villain Name"
-            image="https://source.unsplash.com/random/300x300?villain"
+            image="https://upload.wikimedia.org/wikipedia/en/d/d1/Bowser_by_Shigehisa_Nakaue.png"
           />
         </div>
       </section>

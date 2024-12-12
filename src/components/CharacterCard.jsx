@@ -4,7 +4,7 @@ import "./CharacterCard.css";
 function CharacterCard({ title, description, image }) {
   return (
     <div className="character-card">
-      <img src={image} alt={title} className="character-image" />
+      <img src={image} alt={title} />
       <h3>{title}</h3>
       <p>{description}</p>
     </div>

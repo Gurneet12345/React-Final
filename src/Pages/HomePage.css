@@ -9,7 +9,8 @@ body, html {
     margin-left: 80px;
     
     padding: 20px;
-    background-color: #121212;
+    background: url('https://wallpaperaccess.com/full/1326732.jpg') no-repeat center center fixed;
+    background-size: cover; 
     color: #fff;
     height: 100vh; /* Full height of the viewport */
     width: 100vw; /* Full width of the viewport */
