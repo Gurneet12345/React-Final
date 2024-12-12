@@ -20,13 +20,13 @@ function HomePage() {
       image: "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Princess_Peach_Stock_Art.png/170px-Princess_Peach_Stock_Art.png",
     },
     {
-      title: "Character 4",
-      description: "Character Name 3",
+      title: "Kamek",
+      description: "maternal figure",
       image: "https://e7.pngegg.com/pngimages/418/95/png-clipart-mario-kart-7-bowser-kamek-mario-bros-mario-kart-heroes-nintendo.png",
     },
     {
-      title: "Character 5",
-      description: "Character Name 3",
+      title: "Rosalina",
+      description: "Non-Player Character",
       image: "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png",
     },
     {
