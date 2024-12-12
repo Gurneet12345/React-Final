@@ -1,5 +1,6 @@
 import React from "react";
-import CharacterCard from "../components/CharacterCard"; // Ensure the path is correct
+import { Link } from "react-router-dom";
+import CharacterCard from "../components/CharacterCard";
 import "./CharactersPage.css";
 
 function CharactersPage() {
@@ -20,6 +21,11 @@ function CharactersPage() {
             description={char.description}
           />
         ))}
+      </div>
+      <div className="back-button">
+        <Link to="/">
+          <button>Back to Home</button>
+        </Link>
       </div>
     </div>
   );

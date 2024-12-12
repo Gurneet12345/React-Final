@@ -91,6 +91,13 @@ body, html {
     box-sizing: border-box;
   }
   
+  .character-card img {
+    width: 100%; /* Full width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
   .character-card h3 {
     margin: 0;
     color: #ffc107; /* Bright yellow for titles */
