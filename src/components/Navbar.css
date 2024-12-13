@@ -1,27 +1,30 @@
 .navbar {
-    width: 200px;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    height: 100vh;
-    position: fixed;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navbar li {
-    margin: 20px 0;
-  }
-  
-  .navbar a {
-    color: #ddd;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    color: #fff;
-  }
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Same width across all pages */
+  height: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+.main-content {
+  margin-left: 200px; /* Matches navbar width */
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+}

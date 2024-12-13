@@ -1,0 +1,312 @@
+[
+  {
+      "name": "Mario",
+      "description": "Recurring Character",
+      "image": "https://mario.nintendo.com/static/86bd56fed456e9b642100519880b6a86/b3853/mario.png",
+      "height": "155 cm",
+      "weight": "75 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Jumping",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Princess Peach",
+      "description": "Head of State",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/16/Princess_Peach_Stock_Art.png/170px-Princess_Peach_Stock_Art.png",
+      "height": "165 cm",
+      "weight": "60 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Diplomacy",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Kamek",
+      "description": "Maternal figure",
+      "image": "https://e7.pngegg.com/pngimages/418/95/png-clipart-mario-kart-7-bowser-kamek-mario-bros-mario-kart-heroes-nintendo.png",
+      "height": "150 cm",
+      "weight": "50 kg",
+      "eyeColor": "Yellow",
+      "mainAbility": "Magic",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Birdo",
+      "description": "Boss Character",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwbQD8RBKOA_-OiGZ85nXmci2tKEHYXZ5V9qjmcKs6DoLZh1HhM74ap5iwUS0bluYzeRc&usqp=CAU",
+      "height": "180 cm",
+      "weight": "80 kg",
+      "eyeColor": "Pink",
+      "mainAbility": "Egg Shooting",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Nabbit",
+      "description": "Fleeing from the Road House",
+      "image": "https://static.wikia.nocookie.net/mario/images/f/f7/SMBW_Nabbit.webp",
+      "height": "140 cm",
+      "weight": "40 kg",
+      "eyeColor": "Green",
+      "mainAbility": "Stealing",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Toadette",
+      "description": "Member of the Toad species",
+      "image": "https://i.pinimg.com/236x/dc/9d/22/dc9d227d421cae78d533b16bff95ef04.jpg",
+      "height": "90 cm",
+      "weight": "20 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Speed",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Fawful",
+      "description": "Antagonist",
+      "image": "https://static.wikia.nocookie.net/hello-yoshi/images/e/eb/1168px-Fawful_artwork_MLBiS.png",
+      "height": "120 cm",
+      "weight": "35 kg",
+      "eyeColor": "Red",
+      "mainAbility": "Deception",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Toadsworth",
+      "description": "Elderly Toad",
+      "image": "https://static.wikia.nocookie.net/mario/images/0/0e/Toadsworth_SMS_artwork.png",
+      "height": "90 cm",
+      "weight": "25 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Wisdom",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Monty Mole",
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Toad_by_Shigehisa_Nakaue.png",
+      "height": "50 cm",
+      "weight": "15 kg",
+      "eyeColor": "Black",
+      "mainAbility": "Digging",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Donkey Kong",
+      "description": "",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Donkey_Kong_character.png/220px-Donkey_Kong_character.png",
+      "height": "200 cm",
+      "weight": "150 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Strength",
+      "strengthLevel": "Extreme"
+  },
+  {
+      "name": "Ludwig von Koopa",
+      "description": "Eldest leader of the Koopalings",
+      "image": "https://static.wikia.nocookie.net/papermario/images/b/b3/PMCS_Ludwig-0.png",
+      "height": "130 cm",
+      "weight": "55 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Strategy",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Major Burrows",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/fantendo/images/5/53/Major_Burrows.png",
+      "height": "180 cm",
+      "weight": "120 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Tunneling",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Luigi",
+      "description": "The Protagonist",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Luigi_by_Shigehisa_Nakaue.png",
+      "height": "160 cm",
+      "weight": "70 kg",
+      "eyeColor": "Green",
+      "mainAbility": "Jumping",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Rosalina",
+      "description": "Non-Player Character",
+      "image": "https://static.wikia.nocookie.net/mario/images/5/56/Rosalina-MPTop100-Transparent.png",
+      "height": "190 cm",
+      "weight": "70 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Stellar Control",
+      "strengthLevel": "Extreme"
+  },
+  {
+      "name": "Baby Rosalina",
+      "description": "Detective",
+      "image": "https://static.wikia.nocookie.net/mk-tour/images/3/33/MKT_Artwork_BabyRosalina.png",
+      "height": "80 cm",
+      "weight": "15 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Curiosity",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Wario",
+      "description": "Boss Character",
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/81/Wario.png",
+      "height": "150 cm",
+      "weight": "100 kg",
+      "eyeColor": "Black",
+      "mainAbility": "Power",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Bowser",
+      "description": "Fictional Character",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Bowser_by_Shigehisa_Nakaue.png",
+      "height": "250 cm",
+      "weight": "1000 kg",
+      "eyeColor": "Red",
+      "mainAbility": "Fire-breathing",
+      "strengthLevel": "Extreme"
+  },
+  {
+      "name": "Toad",
+      "description": "Princess Peach's Handler",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Toad_by_Shigehisa_Nakaue.png",
+      "height": "90 cm",
+      "weight": "20 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Loyalty",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Princess Daisy",
+      "description": "Ruler of Sarasaland",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/eb/Princess_Daisy_by_Shigehisa_Nakaue.png",
+      "height": "160 cm",
+      "weight": "55 kg",
+      "eyeColor": "Green",
+      "mainAbility": "Charisma",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Waluigi",
+      "description": "Mischief",
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c1/Waluigi_by_Shigehisa_Nakaue.png",
+      "height": "180 cm",
+      "weight": "65 kg",
+      "eyeColor": "Purple",
+      "mainAbility": "Trickery",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Yoshi",
+      "description": "Fictional Dinosaur",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/4/48/Yoshi.png",
+      "height": "170 cm",
+      "weight": "60 kg",
+      "eyeColor": "Black",
+      "mainAbility": "Eating",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Bowser Jr.",
+      "description": "Child Son of Bowser",
+      "image": "https://static.wikia.nocookie.net/mario/images/5/5d/Bowser_Jr_SMB_Wonder_artwork.png",
+      "height": "120 cm",
+      "weight": "40 kg",
+      "eyeColor": "Red",
+      "mainAbility": "Mischief",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Lakitu",
+      "description": "Minor Character",
+      "image": "https://i.pinimg.com/564x/93/5b/7f/935b7f1a57d78b4c68bd0a7598dfa442.jpg",
+      "height": "100 cm",
+      "weight": "30 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Cloud Riding",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "Metal Mario",
+      "description": "Transformed Mario",
+      "image": "https://static.wikia.nocookie.net/mario/images/7/7e/Metal_Mario_Artwork_2_-_Mario_Kart_7.png",
+      "height": "155 cm",
+      "weight": "120 kg",
+      "eyeColor": "Silver",
+      "mainAbility": "Invincibility",
+      "strengthLevel": "Extreme"
+  },
+  {
+      "name": "Diddy Kong",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/mario/images/6/64/MK8D_BCP_Diddy_Kong_Artwork.png",
+      "height": "150 cm",
+      "weight": "45 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Agility",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "King Bob-omb",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/mario/images/e/e2/MPSR_King_Bob_omb.png",
+      "height": "200 cm",
+      "weight": "500 kg",
+      "eyeColor": "Black",
+      "mainAbility": "Explosives",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Honey Queen",
+      "description": "Boss of Fourth World",
+      "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/mario-kart-7/9/94/Character-honey-queen.png",
+      "height": "220 cm",
+      "weight": "300 kg",
+      "eyeColor": "Yellow",
+      "mainAbility": "Royal Command",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "E.Gadd",
+      "description": "Gadget-inventing scientist",
+      "image": "https://static.wikia.nocookie.net/pm-universe/images/f/fa/Professor_Elvin_Gadd_Artwork_-_Luigi%27s_Mansion_Dark_Moon.png",
+      "height": "100 cm",
+      "weight": "25 kg",
+      "eyeColor": "Blue",
+      "mainAbility": "Invention",
+      "strengthLevel": "Medium"
+  },
+  {
+      "name": "Poochy",
+      "description": "",
+      "image": "https://static.wikia.nocookie.net/mariokart/images/3/3e/Poochy.png",
+      "height": "50 cm",
+      "weight": "10 kg",
+      "eyeColor": "Brown",
+      "mainAbility": "Loyalty",
+      "strengthLevel": "Low"
+  },
+  {
+      "name": "King Boo",
+      "description": "Memorable Character",
+      "image": "https://static.wikia.nocookie.net/mk-tour/images/a/a9/King_Boo_Artwork_MSS.png",
+      "height": "150 cm",
+      "weight": "50 kg",
+      "eyeColor": "Glowing Red",
+      "mainAbility": "Haunting",
+      "strengthLevel": "High"
+  },
+  {
+      "name": "Ninji",
+      "description": "",
+      "image": "https://play.nintendo.com/images/PLAY-6579-Ninji-FriendPage-Circle_v01.7bf2a8f2.aead314d58b63e27.jpg",
+      "height": "80 cm",
+      "weight": "20 kg",
+      "eyeColor": "Black",
+      "mainAbility": "Speed",
+      "strengthLevel": "Medium"
+  }
+]

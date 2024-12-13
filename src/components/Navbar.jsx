@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -12,14 +12,8 @@ function Navbar() {
         <li>
           <Link to="/characters">Characters</Link>
         </li>
-        <li>
-          <Link to="/videos">Videos</Link>
-        </li>
-        <li>
-          <Link to="/wiki-info">Wiki Info</Link>
-        </li>
       </ul>
-    </nav>
+    </div>
   );
 }
 

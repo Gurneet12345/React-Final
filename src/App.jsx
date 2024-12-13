@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import CharactersPage from "./pages/CharactersPage";
+import CharacterDetailsPage from "./pages/CharacterDetailsPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/characters" element={<CharactersPage />} /> {/* Define Route */}
+          <Route path="/characters/:characterId" element={<CharacterDetailsPage />} />
         </Routes>
       </div>
     </Router>
