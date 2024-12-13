@@ -62,6 +62,10 @@ function CharactersPage() {
               <p><strong>Main Ability:</strong> {selectedCharacter.mainAbility || "Unknown"}</p>
               <p><strong>Strength Level:</strong> {selectedCharacter.strengthLevel || "Unknown"}</p>
             </div>
+            <div className="modal-story">
+              <h3>Story</h3>
+              <p>{selectedCharacter.story || "Story not available."}</p>
+            </div>
           </div>
         </div>
       )}

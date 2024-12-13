@@ -7,10 +7,10 @@ function Navbar() {
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Featuring Characters</Link>
         </li>
         <li>
-          <Link to="/characters">Characters</Link>
+          <Link to="/characters">All Characters</Link>
         </li>
       </ul>
     </div>

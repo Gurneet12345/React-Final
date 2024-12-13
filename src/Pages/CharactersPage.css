@@ -1,3 +1,4 @@
+/* Global Styles */
 body, html {
   margin: 0;
   padding: 0;
@@ -9,9 +10,8 @@ body, html {
   display: flex;
   margin: 0;
   min-height: 100vh;
-  background-color: #121212; /* Remove the default margin */
-    margin-left: 250px;
-  
+  background-color: #121212;
+  margin-left: 250px;
 }
 
 .sidebar {
@@ -19,8 +19,8 @@ body, html {
   background-color: #090909;
   height: 100vh;
   padding: 20px;
-  color:#121212 ;
   box-sizing: border-box;
+  color: #121212;
 }
 
 .sidebar ul {
@@ -54,7 +54,6 @@ body, html {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  padding: 0;
 }
 
 .character-item {
@@ -64,6 +63,12 @@ body, html {
   padding: 10px;
   background-color: #333;
   border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.character-item:hover {
+  transform: scale(1.05);
 }
 
 .character-img {
@@ -78,15 +83,7 @@ body, html {
   color: #ffc107;
 }
 
-.character-item {
-  cursor: pointer;
-  transition: transform 0.3s;
-}
-.character-item:hover {
-  transform: scale(1.05);
-}
-
-/* Center-align Modal */
+/* Modal Styles */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -101,72 +98,64 @@ body, html {
 }
 
 .modal-content {
-  background: #1e1e1e;
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  color: #fff;
-  max-width: 400px;
-  width: 90%;
+  background-color: #2d2d2d;
+  color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto; /* Add scroll for overflow */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.modal-content h2 {
-  font-size: 2rem;
-  color: #ffc107;
-  margin-bottom: 20px;
+.modal-content::-webkit-scrollbar {
+  width: 8px;
 }
 
-.modal-image {
-  width: 100%;
-  max-height: 200px;
-  object-fit: contain;
-  margin-bottom: 20px;
-  border-radius: 8px;
+.modal-content::-webkit-scrollbar-track {
+  background: #1d1d1d;
 }
 
-.modal-description {
-  font-size: 1.2rem;
-  line-height: 1.5;
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #ffc107;
+  border-radius: 4px;
 }
 
 .close-button {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   background: transparent;
+  color: #f1f1f1;
   border: none;
   font-size: 1.5rem;
-  color: #fff;
   cursor: pointer;
 }
 
-
-.modal-content {
-  background: #1e1e1e;
-  padding: 30px;
-  border-radius: 12px;
-  text-align: left;
-  color: #fff;
-  max-width: 600px;
-  width: 90%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+/* Layout for Image and Physical Info */
+.modal-image-info {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 20px;
 }
 
 .modal-image {
   width: 40%;
-  max-height: 200px;
+  max-height: 300px;
   object-fit: contain;
+  align-items: center;
   border-radius: 8px;
 }
 
 .modal-info {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: left;
 }
 
 .modal-info h2 {
@@ -181,13 +170,69 @@ body, html {
   line-height: 1.5;
 }
 
-.close-button {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  color: #fff;
-  cursor: pointer;
+/* Story Section */
+.modal-story {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.modal-story h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffc107;
+}
+
+.modal-story p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.modal-content {
+  background-color: #2d2d2d;
+  color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto; /* Add scroll for overflow */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjust layout for image and information */
+.modal-image-info {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  gap: 20px;
+}
+
+/* Center image */
+.modal-image {
+  width: auto; /* Maintain original aspect ratio */
+  height: 300px; /* Adjust height */
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* Adjust story alignment */
+.modal-story {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.modal-story h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #ffc107;
+}
+
+.modal-story p {
+  font-size: 16px;
+  line-height: 1.5;
 }
